@@ -1,0 +1,36 @@
+==Title==
+Content Cache SSL Fix
+
+==Author==
+SHOPMACHER eCommerce GmbH & Co. KG
+
+==Prefix==
+sm_contentcachesslfix
+
+==Version==
+1.0.1
+
+==Link==
+http://www.syseleven.de/blog/3114/hotfix-fur-oxid-ssl-problem/
+
+==Mail==
+support@syseleven.de
+
+==Description==
+
+==Extend==
+  * info => sm_contentcachesslfix/views/sm_contentcachesslfix_views
+  * start => sm_contentcachesslfix/views/sm_contentcachesslfix_views
+  * details => sm_contentcachesslfix/views/sm_contentcachesslfix_views
+  * alist => sm_contentcachesslfix/views/sm_contentcachesslfix_views
+  * vendorlist => sm_contentcachesslfix/views/sm_contentcachesslfix_views
+
+==Installation OXID eShop BELOW 4.6.0==
+  * Copy contents of folder "copy_this" to the document root of your OXID eShop installation.
+  * Delete the contents of the tmp directory.
+  * Add the module entires (below) to Master Settings > System > Modules.
+
+==Installation OXID eShop 4.6.0==
+  * Copy contents of folder "copy_this" to the document root of your OXID eShop installation.
+  * Delete the contents of the tmp directory.
+  * Activate module under Extensions > Modules.

@@ -1,0 +1,5 @@
+==1.0.1==
+* fixed readme
+
+==1.0==
+* Initial release of module
